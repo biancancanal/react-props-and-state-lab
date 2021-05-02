@@ -2,7 +2,7 @@ import React from 'react'
 
 class Filters extends React.Component {
   handleFilter = (event) => {
-    this.props.onChangeType(event.target.value);
+    this.props.handleFetch(event.target.value);
   }
 
   render() {
