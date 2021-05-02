@@ -9,7 +9,6 @@ render() {
       pet={pet} 
       key={pet.id}
       onAdoptPet={this.props.onAdoptPet}
-      isAdopted={this.props.adoptedPets}
       />
     )
   return <div className="ui cards">{thePets}</div>
